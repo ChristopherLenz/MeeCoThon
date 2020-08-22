@@ -33,17 +33,25 @@ Collection of all MeeCoThon topics
 
 ### VM Host
 
-[https://www.virtualbox.org/](VirtualBox 6.1.2)
+The prepared VM is created with [VirtualBox 6.1.2](https://www.virtualbox.org/). You can download the correct version [here](https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe)
 
+You can use this, VMware Player or Hyper-V. With Hyper-V you have to do some manual steps because of the missing "Open Virtualization Format" support.
 
-[https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe](Download)
-
+**If you use VirtualBox or VMware Player make sure to deactivate Hyper-V**
 
 ## Cloning this repository
 
 ![Cloning the repository](docs/git_clone.gif)
 
-## 0 Jupyter
+## 0 Basics
+
+### Kubernetes
+
+For most of the showcases we use Kubernetes. Therefore it would be an asset to know the basic [terminology](https://kubernetes.io/de/docs/reference/glossary/?fundamental=true) of it.
+
+Slide: https://docs.google.com/presentation/d/1L4HI5Ywi-jxAuVp5raP7yq7VL8XaqXXh5Xxuq7CwJ-M/
+
+### Jupyter Notebook
 
 The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
 
